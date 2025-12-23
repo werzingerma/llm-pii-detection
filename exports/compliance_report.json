@@ -1,0 +1,48 @@
+{
+  "report_title": "DSGVO Compliance Report - PII-Zugriffe",
+  "generated_at": "2025-12-22T00:31:59.996166",
+  "period": {
+    "start": "2025-12-22T00:14:01.679232",
+    "end": "2025-12-22T00:18:35.801012",
+    "duration_hours": 0.07614493888888889
+  },
+  "summary": {
+    "total_access_attempts": 101,
+    "successful_accesses": 56,
+    "denied_accesses": 45,
+    "unique_users": 4,
+    "denial_rate": 0.44554455445544555
+  },
+  "pii_access_breakdown": {
+    "email": 9,
+    "phone": 17,
+    "unknown": 2,
+    "iban": 9,
+    "name": 24,
+    "date_of_birth": 8,
+    "address": 16,
+    "ssn": 8,
+    "ip_address": 8
+  },
+  "user_access_breakdown": {
+    "u001": 25,
+    "u003": 13,
+    "u005": 39,
+    "u002": 24
+  },
+  "suspicious_activities": [
+    {
+      "user_id": "u001",
+      "reason": "Mehrfache Zugriffsverweigerungen (25x)"
+    },
+    {
+      "user_id": "u002",
+      "reason": "Mehrfache Zugriffsverweigerungen (16x)"
+    }
+  ],
+  "recommendations": [
+    "Regelmäßige Überprüfung der Zugriffsrechte",
+    "Schulung für Mitarbeiter mit hoher Zugriffshäufigkeit",
+    "Automatische Alerts bei auffälligen Zugriffsmustern"
+  ]
+}

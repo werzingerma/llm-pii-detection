@@ -1,0 +1,701 @@
+{
+  "export_timestamp": "2025-12-22T03:42:29.458038",
+  "total_entries": 29,
+  "entries": [
+    {
+      "entry_id": "74ebac5a-d2a0-4acd-a0d9-ced4288eeb4d",
+      "timestamp": "2025-12-22T03:42:29.098521",
+      "user": {
+        "user_id": "u001",
+        "username": "guest_user",
+        "access_level": "PUBLIC",
+        "department": "External",
+        "roles": [
+          "viewer"
+        ]
+      },
+      "action": "DEMASK_DENIED",
+      "pii_type": "email",
+      "placeholder": "[EMAIL_1]",
+      "original_hash": "8e401fd516e1709a",
+      "success": false,
+      "reason": "Zugriff verweigert: PUBLIC < INTERNAL. Angefragte Begründung: Kunde möchte Kontaktdaten",
+      "ip_address": "192.168.1.100",
+      "session_id": "sess_6e1051c5",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "410d1874-2c79-4401-8d17-a0fe51dbe1f7",
+      "timestamp": "2025-12-22T03:42:29.099129",
+      "user": {
+        "user_id": "u003",
+        "username": "hr_manager",
+        "access_level": "CONFIDENTIAL",
+        "department": "Human Resources",
+        "roles": [
+          "manager",
+          "hr_staff"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "phone",
+      "placeholder": "[PHONE_1]",
+      "original_hash": "150ec31d02352af3",
+      "success": true,
+      "reason": "Dringender Rückruf erforderlich für Gehaltsabrechnung",
+      "ip_address": "192.168.1.100",
+      "session_id": "sess_d0a0ffc6",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "8d159949-7b76-4c1d-8e1d-bb8e209749c4",
+      "timestamp": "2025-12-22T03:42:29.099232",
+      "user": {
+        "user_id": "u005",
+        "username": "system_admin",
+        "access_level": "ADMIN",
+        "department": "IT",
+        "roles": [
+          "admin",
+          "superuser"
+        ]
+      },
+      "action": "DEMASK_ATTEMPT",
+      "pii_type": "unknown",
+      "placeholder": "[IBAN_1]",
+      "original_hash": "",
+      "success": false,
+      "reason": "Begründung erforderlich aber nicht angegeben",
+      "ip_address": "192.168.1.100",
+      "session_id": "sess_725ad696",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "8d1d6d88-c3b6-4ba2-8ee9-f10db09e6937",
+      "timestamp": "2025-12-22T03:42:29.099321",
+      "user": {
+        "user_id": "u005",
+        "username": "system_admin",
+        "access_level": "ADMIN",
+        "department": "IT",
+        "roles": [
+          "admin",
+          "superuser"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "iban",
+      "placeholder": "[IBAN_1]",
+      "original_hash": "de12be61ad13570e",
+      "success": true,
+      "reason": "Audit-Anforderung für Jahresabschluss, Ticket #2024-1234",
+      "ip_address": "192.168.1.100",
+      "session_id": "sess_a4683531",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "0514c302-a6d7-4b3c-bd91-afd79cfdb0fd",
+      "timestamp": "2025-12-22T03:42:29.099403",
+      "user": {
+        "user_id": "u005",
+        "username": "system_admin",
+        "access_level": "ADMIN",
+        "department": "IT",
+        "roles": [
+          "admin",
+          "superuser"
+        ]
+      },
+      "action": "DEMASK_ATTEMPT",
+      "pii_type": "unknown",
+      "placeholder": "[UNKNOWN_99]",
+      "original_hash": "",
+      "success": false,
+      "reason": "Placeholder nicht gefunden",
+      "ip_address": "192.168.1.100",
+      "session_id": "sess_fd013d50",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "65f5f228-dafe-4514-9ad8-ef9673c90689",
+      "timestamp": "2025-12-22T03:42:29.102988",
+      "user": {
+        "user_id": "u003",
+        "username": "hr_manager",
+        "access_level": "CONFIDENTIAL",
+        "department": "Human Resources",
+        "roles": [
+          "manager",
+          "hr_staff"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "name",
+      "placeholder": "[NAME_1]",
+      "original_hash": "dd825657c9fe9c4f",
+      "success": true,
+      "reason": "Vorbereitung Mitarbeitergespräch, Termin morgen 10:00",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_f8ecc3a9",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "f6cd670f-dc53-428e-ae74-006cb3cd29ed",
+      "timestamp": "2025-12-22T03:42:29.103186",
+      "user": {
+        "user_id": "u003",
+        "username": "hr_manager",
+        "access_level": "CONFIDENTIAL",
+        "department": "Human Resources",
+        "roles": [
+          "manager",
+          "hr_staff"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "name",
+      "placeholder": "[NAME_2]",
+      "original_hash": "f2e76611316c3ca6",
+      "success": true,
+      "reason": "Vorbereitung Mitarbeitergespräch, Termin morgen 10:00",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_f8ecc3a9",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "fe124eee-5db3-4a02-9da8-5c13b986dd78",
+      "timestamp": "2025-12-22T03:42:29.103287",
+      "user": {
+        "user_id": "u003",
+        "username": "hr_manager",
+        "access_level": "CONFIDENTIAL",
+        "department": "Human Resources",
+        "roles": [
+          "manager",
+          "hr_staff"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "email",
+      "placeholder": "[EMAIL_1]",
+      "original_hash": "8e401fd516e1709a",
+      "success": true,
+      "reason": "Vorbereitung Mitarbeitergespräch, Termin morgen 10:00",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_f8ecc3a9",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "ca82b76e-851f-4bcd-b23e-a1771cdc6239",
+      "timestamp": "2025-12-22T03:42:29.103334",
+      "user": {
+        "user_id": "u003",
+        "username": "hr_manager",
+        "access_level": "CONFIDENTIAL",
+        "department": "Human Resources",
+        "roles": [
+          "manager",
+          "hr_staff"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "phone",
+      "placeholder": "[PHONE_1]",
+      "original_hash": "150ec31d02352af3",
+      "success": true,
+      "reason": "Vorbereitung Mitarbeitergespräch, Termin morgen 10:00",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_f8ecc3a9",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "1a253257-8359-4eb7-85e8-8d6096275976",
+      "timestamp": "2025-12-22T03:42:29.103373",
+      "user": {
+        "user_id": "u003",
+        "username": "hr_manager",
+        "access_level": "CONFIDENTIAL",
+        "department": "Human Resources",
+        "roles": [
+          "manager",
+          "hr_staff"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "date_of_birth",
+      "placeholder": "[DATE_OF_BIRTH_1]",
+      "original_hash": "1e8962dcfc83dfb3",
+      "success": true,
+      "reason": "Vorbereitung Mitarbeitergespräch, Termin morgen 10:00",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_f8ecc3a9",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "04f4cf1f-a21f-41a1-9ea0-e78b35f53de6",
+      "timestamp": "2025-12-22T03:42:29.103408",
+      "user": {
+        "user_id": "u003",
+        "username": "hr_manager",
+        "access_level": "CONFIDENTIAL",
+        "department": "Human Resources",
+        "roles": [
+          "manager",
+          "hr_staff"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "address",
+      "placeholder": "[ADDRESS_1]",
+      "original_hash": "90a33493a05d4f1e",
+      "success": true,
+      "reason": "Vorbereitung Mitarbeitergespräch, Termin morgen 10:00",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_f8ecc3a9",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "2e8373a5-dc92-47f2-978c-8c94c8ab2b79",
+      "timestamp": "2025-12-22T03:42:29.103452",
+      "user": {
+        "user_id": "u003",
+        "username": "hr_manager",
+        "access_level": "CONFIDENTIAL",
+        "department": "Human Resources",
+        "roles": [
+          "manager",
+          "hr_staff"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "phone",
+      "placeholder": "[PHONE_2]",
+      "original_hash": "326dc3cea6b093b3",
+      "success": true,
+      "reason": "Vorbereitung Mitarbeitergespräch, Termin morgen 10:00",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_f8ecc3a9",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "50849c79-08f9-4a84-a273-a019dcc603e0",
+      "timestamp": "2025-12-22T03:42:29.103485",
+      "user": {
+        "user_id": "u003",
+        "username": "hr_manager",
+        "access_level": "CONFIDENTIAL",
+        "department": "Human Resources",
+        "roles": [
+          "manager",
+          "hr_staff"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "address",
+      "placeholder": "[ADDRESS_2]",
+      "original_hash": "c075b9c24a3d0f0c",
+      "success": true,
+      "reason": "Vorbereitung Mitarbeitergespräch, Termin morgen 10:00",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_f8ecc3a9",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "1c25d202-4c9d-4683-b7fb-7b1cf3acaed3",
+      "timestamp": "2025-12-22T03:42:29.103517",
+      "user": {
+        "user_id": "u003",
+        "username": "hr_manager",
+        "access_level": "CONFIDENTIAL",
+        "department": "Human Resources",
+        "roles": [
+          "manager",
+          "hr_staff"
+        ]
+      },
+      "action": "DEMASK_DENIED",
+      "pii_type": "iban",
+      "placeholder": "[IBAN_1]",
+      "original_hash": "de12be61ad13570e",
+      "success": false,
+      "reason": "Zugriff verweigert: CONFIDENTIAL < RESTRICTED. Angefragte Begründung: Vorbereitung Mitarbeitergespräch, Termin morgen 10:00",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_f8ecc3a9",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "08ccdc43-e896-4b8f-828f-2e35d5e08e3b",
+      "timestamp": "2025-12-22T03:42:29.103582",
+      "user": {
+        "user_id": "u003",
+        "username": "hr_manager",
+        "access_level": "CONFIDENTIAL",
+        "department": "Human Resources",
+        "roles": [
+          "manager",
+          "hr_staff"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "name",
+      "placeholder": "[NAME_3]",
+      "original_hash": "f2e76611316c3ca6",
+      "success": true,
+      "reason": "Vorbereitung Mitarbeitergespräch, Termin morgen 10:00",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_f8ecc3a9",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "09527ad9-0888-4712-8217-e87757a8cb9f",
+      "timestamp": "2025-12-22T03:42:29.103623",
+      "user": {
+        "user_id": "u003",
+        "username": "hr_manager",
+        "access_level": "CONFIDENTIAL",
+        "department": "Human Resources",
+        "roles": [
+          "manager",
+          "hr_staff"
+        ]
+      },
+      "action": "DEMASK_DENIED",
+      "pii_type": "ssn",
+      "placeholder": "[SSN_1]",
+      "original_hash": "83852b888a350d6b",
+      "success": false,
+      "reason": "Zugriff verweigert: CONFIDENTIAL < RESTRICTED. Angefragte Begründung: Vorbereitung Mitarbeitergespräch, Termin morgen 10:00",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_f8ecc3a9",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "52775513-831d-47bb-a94e-b76d83dd3e1d",
+      "timestamp": "2025-12-22T03:42:29.103654",
+      "user": {
+        "user_id": "u003",
+        "username": "hr_manager",
+        "access_level": "CONFIDENTIAL",
+        "department": "Human Resources",
+        "roles": [
+          "manager",
+          "hr_staff"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "ip_address",
+      "placeholder": "[IP_ADDRESS_1]",
+      "original_hash": "84b4812195edd00e",
+      "success": true,
+      "reason": "Vorbereitung Mitarbeitergespräch, Termin morgen 10:00",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_f8ecc3a9",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "dc6c8936-1c16-4ea4-9bab-f71f1fdd6938",
+      "timestamp": "2025-12-22T03:42:29.106911",
+      "user": {
+        "user_id": "u005",
+        "username": "system_admin",
+        "access_level": "ADMIN",
+        "department": "IT",
+        "roles": [
+          "admin",
+          "superuser"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "name",
+      "placeholder": "[NAME_1]",
+      "original_hash": "dd825657c9fe9c4f",
+      "success": true,
+      "reason": "System-Audit für Datenschutz-Prüfung, Ticket DSGVO-2024-Q4",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_1dace9f6",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "1ee77a29-7d2b-4c72-a1e8-5b2fac76e985",
+      "timestamp": "2025-12-22T03:42:29.107121",
+      "user": {
+        "user_id": "u005",
+        "username": "system_admin",
+        "access_level": "ADMIN",
+        "department": "IT",
+        "roles": [
+          "admin",
+          "superuser"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "name",
+      "placeholder": "[NAME_2]",
+      "original_hash": "f2e76611316c3ca6",
+      "success": true,
+      "reason": "System-Audit für Datenschutz-Prüfung, Ticket DSGVO-2024-Q4",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_1dace9f6",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "84c1bb48-2620-4dc5-ac1a-3b773f0fecc8",
+      "timestamp": "2025-12-22T03:42:29.107206",
+      "user": {
+        "user_id": "u005",
+        "username": "system_admin",
+        "access_level": "ADMIN",
+        "department": "IT",
+        "roles": [
+          "admin",
+          "superuser"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "email",
+      "placeholder": "[EMAIL_1]",
+      "original_hash": "8e401fd516e1709a",
+      "success": true,
+      "reason": "System-Audit für Datenschutz-Prüfung, Ticket DSGVO-2024-Q4",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_1dace9f6",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "ecab0c2d-50e4-4eef-9839-a0de62f73d5e",
+      "timestamp": "2025-12-22T03:42:29.107262",
+      "user": {
+        "user_id": "u005",
+        "username": "system_admin",
+        "access_level": "ADMIN",
+        "department": "IT",
+        "roles": [
+          "admin",
+          "superuser"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "phone",
+      "placeholder": "[PHONE_1]",
+      "original_hash": "150ec31d02352af3",
+      "success": true,
+      "reason": "System-Audit für Datenschutz-Prüfung, Ticket DSGVO-2024-Q4",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_1dace9f6",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "85e503c2-3897-4f8a-9034-7174d51259d6",
+      "timestamp": "2025-12-22T03:42:29.107304",
+      "user": {
+        "user_id": "u005",
+        "username": "system_admin",
+        "access_level": "ADMIN",
+        "department": "IT",
+        "roles": [
+          "admin",
+          "superuser"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "date_of_birth",
+      "placeholder": "[DATE_OF_BIRTH_1]",
+      "original_hash": "1e8962dcfc83dfb3",
+      "success": true,
+      "reason": "System-Audit für Datenschutz-Prüfung, Ticket DSGVO-2024-Q4",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_1dace9f6",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "4c6b30df-52cb-4397-88f8-2505b774ce3b",
+      "timestamp": "2025-12-22T03:42:29.107340",
+      "user": {
+        "user_id": "u005",
+        "username": "system_admin",
+        "access_level": "ADMIN",
+        "department": "IT",
+        "roles": [
+          "admin",
+          "superuser"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "address",
+      "placeholder": "[ADDRESS_1]",
+      "original_hash": "90a33493a05d4f1e",
+      "success": true,
+      "reason": "System-Audit für Datenschutz-Prüfung, Ticket DSGVO-2024-Q4",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_1dace9f6",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "0462d7e7-796c-4dfc-aaac-a33d5283a238",
+      "timestamp": "2025-12-22T03:42:29.107375",
+      "user": {
+        "user_id": "u005",
+        "username": "system_admin",
+        "access_level": "ADMIN",
+        "department": "IT",
+        "roles": [
+          "admin",
+          "superuser"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "phone",
+      "placeholder": "[PHONE_2]",
+      "original_hash": "326dc3cea6b093b3",
+      "success": true,
+      "reason": "System-Audit für Datenschutz-Prüfung, Ticket DSGVO-2024-Q4",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_1dace9f6",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "dc3585a8-90d5-479a-9457-1c6cc04eb65a",
+      "timestamp": "2025-12-22T03:42:29.107408",
+      "user": {
+        "user_id": "u005",
+        "username": "system_admin",
+        "access_level": "ADMIN",
+        "department": "IT",
+        "roles": [
+          "admin",
+          "superuser"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "address",
+      "placeholder": "[ADDRESS_2]",
+      "original_hash": "c075b9c24a3d0f0c",
+      "success": true,
+      "reason": "System-Audit für Datenschutz-Prüfung, Ticket DSGVO-2024-Q4",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_1dace9f6",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "a447e567-0214-4ae4-8b47-63a3024201c9",
+      "timestamp": "2025-12-22T03:42:29.107441",
+      "user": {
+        "user_id": "u005",
+        "username": "system_admin",
+        "access_level": "ADMIN",
+        "department": "IT",
+        "roles": [
+          "admin",
+          "superuser"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "iban",
+      "placeholder": "[IBAN_1]",
+      "original_hash": "de12be61ad13570e",
+      "success": true,
+      "reason": "System-Audit für Datenschutz-Prüfung, Ticket DSGVO-2024-Q4",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_1dace9f6",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "b47024de-a7e6-423d-a99a-bf657db10bc6",
+      "timestamp": "2025-12-22T03:42:29.107473",
+      "user": {
+        "user_id": "u005",
+        "username": "system_admin",
+        "access_level": "ADMIN",
+        "department": "IT",
+        "roles": [
+          "admin",
+          "superuser"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "name",
+      "placeholder": "[NAME_3]",
+      "original_hash": "f2e76611316c3ca6",
+      "success": true,
+      "reason": "System-Audit für Datenschutz-Prüfung, Ticket DSGVO-2024-Q4",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_1dace9f6",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "0e79e1ed-7cc8-40fb-ac08-a04f0eb627fa",
+      "timestamp": "2025-12-22T03:42:29.107505",
+      "user": {
+        "user_id": "u005",
+        "username": "system_admin",
+        "access_level": "ADMIN",
+        "department": "IT",
+        "roles": [
+          "admin",
+          "superuser"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "ssn",
+      "placeholder": "[SSN_1]",
+      "original_hash": "83852b888a350d6b",
+      "success": true,
+      "reason": "System-Audit für Datenschutz-Prüfung, Ticket DSGVO-2024-Q4",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_1dace9f6",
+      "additional_data": {}
+    },
+    {
+      "entry_id": "3d8e4778-dddc-40d5-a2e3-914b5304d5e4",
+      "timestamp": "2025-12-22T03:42:29.107536",
+      "user": {
+        "user_id": "u005",
+        "username": "system_admin",
+        "access_level": "ADMIN",
+        "department": "IT",
+        "roles": [
+          "admin",
+          "superuser"
+        ]
+      },
+      "action": "DEMASK_SUCCESS",
+      "pii_type": "ip_address",
+      "placeholder": "[IP_ADDRESS_1]",
+      "original_hash": "84b4812195edd00e",
+      "success": true,
+      "reason": "System-Audit für Datenschutz-Prüfung, Ticket DSGVO-2024-Q4",
+      "ip_address": "192.168.1.100",
+      "session_id": "batch_1dace9f6",
+      "additional_data": {}
+    }
+  ],
+  "summary": {
+    "total_entries": 29,
+    "successful_accesses": 24,
+    "denied_accesses": 5,
+    "unique_users": 3,
+    "accesses_by_user": {
+      "u001": 1,
+      "u003": 13,
+      "u005": 15
+    },
+    "accesses_by_pii_type": {
+      "email": 3,
+      "phone": 5,
+      "unknown": 2,
+      "iban": 3,
+      "name": 6,
+      "date_of_birth": 2,
+      "address": 4,
+      "ssn": 2,
+      "ip_address": 2
+    },
+    "accesses_by_action": {
+      "DEMASK_DENIED": 3,
+      "DEMASK_SUCCESS": 24,
+      "DEMASK_ATTEMPT": 2
+    },
+    "first_entry": "2025-12-22T03:42:29.098521",
+    "last_entry": "2025-12-22T03:42:29.107536"
+  }
+}

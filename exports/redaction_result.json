@@ -1,0 +1,127 @@
+{
+  "original_text": "\nSehr geehrter Herr Max Mustermann,\n\nvielen Dank für Ihre Anfrage vom 15.03.1990. Wir haben Ihre Daten erhalten:\n\n- E-Mail: max.mustermann@example.com\n- Telefon: +49 170 1234567\n- IBAN: DE89 3704 0044 0532 0130 00\n- Ihre Kundennummer: KD-2024-001234\n\nBitte kontaktieren Sie unsere Mitarbeiterin Anna Schmidt unter anna.schmidt@firma.de \noder telefonisch unter 030/12345678.\n\nIhre IP-Adresse bei der letzten Anmeldung war: 192.168.1.100\n\nMit freundlichen Grüßen,\nDas Support-Team\n",
+  "redacted_text": "\nSehr geehrter Herr [NAME_1],\n\nvielen Dank für Ihre Anfrage vom [DATE_OF_BIRTH_1]. Wir haben Ihre Daten erhalten:\n\n- E-Mail: [EMAIL_1]\n- Telefon: +[PHONE_1]\n- IBAN: [IBAN_1] 00\n- Ihre Kundennummer: KD-[PHONE_2]\n\nBitte kontaktieren Sie unsere Mitarbeiterin [NAME_2] unter [EMAIL_2] \noder telefonisch unter 030/[PHONE_3].\n\nIhre IP-Adresse bei der letzten Anmeldung war: [IP_ADDRESS_1]\n\nMit freundlichen Grüßen,\nDas Support-Team\n",
+  "matches": [
+    {
+      "text": "Max Mustermann",
+      "pii_type": "name",
+      "start": 20,
+      "end": 34,
+      "confidence": 0.85,
+      "method": "ner",
+      "placeholder": "[NAME_1]",
+      "original_hash": "dddfab9b5b8a3601"
+    },
+    {
+      "text": "15.03.1990",
+      "pii_type": "date_of_birth",
+      "start": 70,
+      "end": 80,
+      "confidence": 0.85,
+      "method": "regex",
+      "placeholder": "[DATE_OF_BIRTH_1]",
+      "original_hash": "4a5fdc3c6a04280e"
+    },
+    {
+      "text": "max.mustermann@example.com",
+      "pii_type": "email",
+      "start": 124,
+      "end": 150,
+      "confidence": 0.95,
+      "method": "regex",
+      "placeholder": "[EMAIL_1]",
+      "original_hash": "dd432348e6c3373c"
+    },
+    {
+      "text": "49 170 1234567",
+      "pii_type": "phone",
+      "start": 163,
+      "end": 177,
+      "confidence": 0.85,
+      "method": "regex",
+      "placeholder": "[PHONE_1]",
+      "original_hash": "64e3110e0b9d0800"
+    },
+    {
+      "text": "DE89 3704 0044 0532 0130",
+      "pii_type": "iban",
+      "start": 186,
+      "end": 210,
+      "confidence": 0.95,
+      "method": "regex",
+      "placeholder": "[IBAN_1]",
+      "original_hash": "de12be61ad13570e"
+    },
+    {
+      "text": "2024-001234",
+      "pii_type": "phone",
+      "start": 238,
+      "end": 249,
+      "confidence": 0.85,
+      "method": "regex",
+      "placeholder": "[PHONE_2]",
+      "original_hash": "a5b753e0fb559bc3"
+    },
+    {
+      "text": "Anna Schmidt",
+      "pii_type": "name",
+      "start": 295,
+      "end": 307,
+      "confidence": 0.85,
+      "method": "ner",
+      "placeholder": "[NAME_2]",
+      "original_hash": "a21e4283ee16183c"
+    },
+    {
+      "text": "anna.schmidt@firma.de",
+      "pii_type": "email",
+      "start": 314,
+      "end": 335,
+      "confidence": 0.95,
+      "method": "regex",
+      "placeholder": "[EMAIL_2]",
+      "original_hash": "87224cfc76706914"
+    },
+    {
+      "text": "12345678",
+      "pii_type": "phone",
+      "start": 364,
+      "end": 372,
+      "confidence": 0.85,
+      "method": "regex",
+      "placeholder": "[PHONE_3]",
+      "original_hash": "ef797c8118f02dfb"
+    },
+    {
+      "text": "192.168.1.100",
+      "pii_type": "ip_address",
+      "start": 422,
+      "end": 435,
+      "confidence": 0.95,
+      "method": "regex",
+      "placeholder": "[IP_ADDRESS_1]",
+      "original_hash": "2a39f1eedcd9f986"
+    }
+  ],
+  "mapping": {
+    "[NAME_1]": "dddfab9b5b8a3601",
+    "[DATE_OF_BIRTH_1]": "4a5fdc3c6a04280e",
+    "[EMAIL_1]": "dd432348e6c3373c",
+    "[PHONE_1]": "64e3110e0b9d0800",
+    "[IBAN_1]": "de12be61ad13570e",
+    "[PHONE_2]": "a5b753e0fb559bc3",
+    "[NAME_2]": "a21e4283ee16183c",
+    "[EMAIL_2]": "87224cfc76706914",
+    "[PHONE_3]": "ef797c8118f02dfb",
+    "[IP_ADDRESS_1]": "2a39f1eedcd9f986"
+  },
+  "pii_count": 10,
+  "pii_types_found": [
+    "name",
+    "email",
+    "iban",
+    "date_of_birth",
+    "phone",
+    "ip_address"
+  ]
+}
